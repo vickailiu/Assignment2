@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DC78E985-316E-430B-9F65-5CFF5B985110}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Dev\Playground\Assignment2\external\AntTweakBar-1.16\include;C:\Dev\Playground\Assignment2\external\glfw-3.0.3\include\GLFW;C:\Dev\Playground\Assignment2\external\glm-0.9.4.0;C:\Dev\Playground\Assignment2\external\glew-1.9.0\include;C:\Dev\Playground\Assignment2\external\assimp-3.0.1270\include;C:\Dev\Playground\Assignment2\external\bullet-2.81-rev2613\src;C:\Dev\Playground\Assignment2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Dev\Playground\Assignment2\external\AntTweakBar-1.16\include;C:\Dev\Playground\Assignment2\external\glfw-3.0.3\include\GLFW;C:\Dev\Playground\Assignment2\external\glm-0.9.4.0;C:\Dev\Playground\Assignment2\external\glew-1.9.0\include;C:\Dev\Playground\Assignment2\external\assimp-3.0.1270\include;C:\Dev\Playground\Assignment2\external\bullet-2.81-rev2613\src;C:\Dev\Playground\Assignment2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Dev\Playground\Assignment2\external\AntTweakBar-1.16\include;C:\Dev\Playground\Assignment2\external\glfw-3.0.3\include\GLFW;C:\Dev\Playground\Assignment2\external\glm-0.9.4.0;C:\Dev\Playground\Assignment2\external\glew-1.9.0\include;C:\Dev\Playground\Assignment2\external\assimp-3.0.1270\include;C:\Dev\Playground\Assignment2\external\bullet-2.81-rev2613\src;C:\Dev\Playground\Assignment2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Dev\Playground\Assignment2\external\AntTweakBar-1.16\include;C:\Dev\Playground\Assignment2\external\glfw-3.0.3\include\GLFW;C:\Dev\Playground\Assignment2\external\glm-0.9.4.0;C:\Dev\Playground\Assignment2\external\glew-1.9.0\include;C:\Dev\Playground\Assignment2\external\assimp-3.0.1270\include;C:\Dev\Playground\Assignment2\external\bullet-2.81-rev2613\src;C:\Dev\Playground\Assignment2\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\Playground\Assignment2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Dev/Playground/Assignment2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Dev\cmake\bin\cmake.exe -HC:/Dev/Playground/Assignment2 -BC:/Dev/Playground/Assignment2/Bin --check-stamp-file C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Dev/Playground/Assignment2/CMakeLists.txt;C:\Dev\Playground\Assignment2\CMakeLists.txt;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Dev/Playground/Assignment2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Dev\cmake\bin\cmake.exe -HC:/Dev/Playground/Assignment2 -BC:/Dev/Playground/Assignment2/Bin --check-stamp-file C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Dev/Playground/Assignment2/CMakeLists.txt;C:\Dev\Playground\Assignment2\CMakeLists.txt;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Dev/Playground/Assignment2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Dev\cmake\bin\cmake.exe -HC:/Dev/Playground/Assignment2 -BC:/Dev/Playground/Assignment2/Bin --check-stamp-file C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Dev/Playground/Assignment2/CMakeLists.txt;C:\Dev\Playground\Assignment2\CMakeLists.txt;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Dev/Playground/Assignment2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Dev\cmake\bin\cmake.exe -HC:/Dev/Playground/Assignment2 -BC:/Dev/Playground/Assignment2/Bin --check-stamp-file C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Dev/Playground/Assignment2/CMakeLists.txt;C:\Dev\Playground\Assignment2\CMakeLists.txt;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCCompiler.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeCXXCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\Playground\Assignment2\Bin\CMakeFiles\3.2.1\CMakeRCCompiler.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Dev\cmake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;C:\Dev\Playground\Assignment2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\Playground\Assignment2\Bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>70100634-25D4-4C7B-8C86-8E8E59C76CAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/bullet-2.81-rev2613/src/BulletCollision/BulletCollision.vcxproj">
+      <Project>6A5F57D7-473E-4179-88A9-E4A47B78756B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/bullet-2.81-rev2613/src/BulletDynamics/BulletDynamics.vcxproj">
+      <Project>D8A05618-BF72-4109-9D06-0E66EE86A1F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/bullet-2.81-rev2613/src/BulletSoftBody/BulletSoftBody.vcxproj">
+      <Project>DDB17D14-FB63-47DE-BF47-CBB09F9F6C6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/GLEW_190.vcxproj">
+      <Project>BE2849D0-3D47-46EC-A6D8-2598BB1925E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/glfw-3.0.3/src/GLFW_303.vcxproj">
+      <Project>3F9E89D9-486B-422B-86E2-A0D122054943</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/bullet-2.81-rev2613/src/LinearMath/LinearMath.vcxproj">
+      <Project>CB1F47F8-E850-4677-8671-F42B40B9CA03</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/ZERO_CHECK.vcxproj">
+      <Project>EB79BD61-26B5-4D7B-B792-E7D40BCFB0BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/assimp-3.0.1270/code/assimp.vcxproj">
+      <Project>3E381012-5CFA-4809-9FF5-B57ED2762C68</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/tutorial17_rotations.vcxproj">
+      <Project>D2701CC0-1AFB-4464-A52A-CCE08C38ADFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Dev/Playground/Assignment2/Bin/external/assimp-3.0.1270/contrib/zlib/zlib.vcxproj">
+      <Project>D55291B2-1327-4395-B6B3-E80B0EA881F3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

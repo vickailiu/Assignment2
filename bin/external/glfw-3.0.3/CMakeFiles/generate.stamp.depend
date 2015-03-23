@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Dev/Playground/Assignment2/external/glfw-3.0.3/CMakeLists.txt
+C:/Dev/cmake/share/cmake-3.2/Modules/FindOpenGL.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindThreads.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckIncludeFiles.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckLibraryExists.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckSymbolExists.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindDoxygen.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Dev/Playground/Assignment2/external/glfw-3.0.3/docs/Doxyfile.in
+C:/Dev/Playground/Assignment2/external/glfw-3.0.3/src/config.h.in
+C:/Dev/Playground/Assignment2/external/glfw-3.0.3/src/glfwConfig.cmake.in
+C:/Dev/Playground/Assignment2/external/glfw-3.0.3/src/glfwConfigVersion.cmake.in

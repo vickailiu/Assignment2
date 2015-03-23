@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Dev/Playground/Assignment2/external/CMakeLists.txt
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckIncludeFile.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckTypeSize.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckIncludeFile.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckIncludeFileCXX.cmake
+C:/Dev/cmake/share/cmake-3.2/Modules/CheckFunctionExists.cmake
